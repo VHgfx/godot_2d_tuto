@@ -24,11 +24,11 @@ public partial class Player : Area2D
 	public override void _Ready()
 	{
 		ScreenSize = GetViewportRect().Size;
-		StartPosition = new Vector2(ScreenSize.X * 0.5f, ScreenSize.Y * 0.8f);
+		// StartPosition = new Vector2(ScreenSize.X * 0.5f, ScreenSize.Y * 0.8f);
 		
 		Hide(); // Cache le joueur au lancement;
 		
-		Start(StartPosition);
+		// Start(StartPosition);
 	}
 	
 	// _Process : Appelé à chaque frame
@@ -96,5 +96,5 @@ public partial class Player : Area2D
 	public int Speed { get; set; } = 400; // Speed of player
 	
 	public Vector2 ScreenSize; // Size of the game window
-	public Vector2 StartPosition;
+	// public Vector2 StartPosition;
 }

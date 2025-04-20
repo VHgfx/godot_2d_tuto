@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="20250419_2D_tuto"
+run/main_scene="uid://caqci33gatntw"
 config/features=PackedStringArray("4.4", "C#", "Mobile")
 config/icon="res://icon.svg"
 
